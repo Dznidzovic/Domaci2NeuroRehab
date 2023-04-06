@@ -1,12 +1,10 @@
-from PyQt5 import QtWidgets, QtCore, QtGui
-from PyQt5.QtWidgets import QPushButton,QSpinBox, QGridLayout, QWidget, QComboBox, QLabel, QLineEdit
-from pyqtgraph import PlotWidget, plot
-from SerialComm import SerialComunication
-import pyqtgraph as pg
-import numpy as np
 import sys
-import os
-from random import randint
+from PyQt5 import QtWidgets, QtCore
+import numpy as np
+from SerialComm import SerialComunication
+from PyQt5.QtWidgets import QPushButton, QGridLayout, QWidget, QComboBox, QLabel, QLineEdit
+import pyqtgraph as pg
+
 
 class App(QtWidgets.QMainWindow):
 
